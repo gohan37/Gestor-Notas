@@ -1,0 +1,18 @@
+# Node.js modules
+node_modules/
+
+# Archivos de configuración privados (como Firebase y otros secretos)
+firebaseConfig.json
+
+# Archivos de entorno (.env)
+.env
+
+# Archivos de logs
+*.log
+
+# Sistema operativo y editor
+.DS_Store         # Para MacOS
+Thumbs.db         # Para Windows
+
+# Archivos de configuración de Visual Studio Code
+.vscode/

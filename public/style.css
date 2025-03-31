@@ -1,0 +1,105 @@
+
+ 
+
+
+body {
+  background-image: url('img/BG-NEW-WEB.jpg');
+  
+  background-size: cover;   
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+    font-family: Arial, sans-serif;
+    background-color: #92929283;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  flex-direction: column;   /* Organiza el contenido en columna (header, main, footer) */
+  min-height: 100vh;         /* Asegura que el body ocupe al menos el 100% de la altura de la pantalla */
+  margin: 0;                 /* Elimina los márgenes por defecto */
+  padding: 0; 
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 250%;
+    
+  }
+  
+  form {
+    
+    margin-bottom: 20px;
+   
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0f0c0c;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #040504bd;
+    color: rgb(226, 218, 218);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #1587d37c;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #000000cb;
+    
+  }
+  h2{
+    color: #0a0909;
+    font-size: 250%;
+    
+    
+  }
+  input{
+    background-color: #1587d341;
+    font-size: 150%;
+  }
+  textarea{
+    background-color: #1587d370;
+    font-size: 150%;
+   
+  }
+  ::placeholder{
+    color: #000;
+  }
+  p{
+    color: rgb(255, 243, 243);
+    
+  }
+  footer {
+    background-color: #333;     /* Fondo oscuro para el footer */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;             /* Asegura que el footer ocupe todo el ancho */
+  }
+  
