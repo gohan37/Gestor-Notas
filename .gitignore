@@ -7,6 +7,10 @@ firebaseConfig.json
 # Archivos de entorno (.env)
 .env
 
+server/
+
+package-lock.json
+
 # Archivos de logs
 *.log
 
