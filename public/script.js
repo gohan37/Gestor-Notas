@@ -2,7 +2,7 @@
 async function obtenerNotas() {
     try {
       // Hacer una solicitud GET a /notas para obtener las notas
-      const response = await fetch('http://localhost:4000/notas');
+      const response = await fetch('https://gestor-de-notas.onrender.com');
       const notas = await response.json();  // Asegúrate de que "notas" esté definida aquí
   
       // Obtener el elemento donde vamos a mostrar las notas
@@ -31,7 +31,7 @@ async function obtenerNotas() {
     const contenido = document.getElementById('contenido').value;
   
     // Enviar la nueva nota al backend
-    await fetch('http://localhost:4000/guardar-nota', {
+    await fetch('https://gestor-de-notas.onrender.com/guardar-nota', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
