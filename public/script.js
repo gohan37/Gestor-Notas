@@ -1,3 +1,5 @@
+const API_URL = "https://gestor-de-notas.onrender.com/"; 
+
 // Función para obtener las notas desde el servidor
 async function obtenerNotas() {
     try {
