@@ -19,4 +19,4 @@ package-lock.json
 Thumbs.db         # Para Windows
 
 # Archivos de configuración de Visual Studio Code
-.vscode/
+.vscode/node_modules/
