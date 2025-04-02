@@ -1,4 +1,4 @@
-const API_URL = "https://gestor-de-notas.onrender.com/"; // Cambia esto por la URL de tu backend
+const API_URL = "https://gestor-de-notas.onrender.com"; // Cambia esto por la URL de tu backend
 
 // Función para obtener las notas desde el servidor
 async function obtenerNotas() {
